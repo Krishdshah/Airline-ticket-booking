@@ -6,7 +6,7 @@ from datetime import date as D
 import mysql.connector as mysql
 
 #MySQL connection establishment
-con=mysql.connect(user='root',host='localhost',passwd='Krish159',database='my_travel_app')
+con=mysql.connect(user='root',host='localhost',passwd="<PASSWORD>",database='my_travel_app')
 cur=con.cursor()
 
 #Window 
